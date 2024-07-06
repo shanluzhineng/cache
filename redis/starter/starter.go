@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/abmpio/abmp/pkg/log"
-	"github.com/abmpio/app"
-	"github.com/abmpio/app/web"
-	"github.com/abmpio/configurationx"
+	"github.com/shanluzhineng/abmp/pkg/log"
+	"github.com/shanluzhineng/app"
+	"github.com/shanluzhineng/app/web"
+	"github.com/shanluzhineng/configurationx"
 	"go.uber.org/zap"
 
-	redisx "github.com/abmpio/redisx"
+	redisx "github.com/shanluzhineng/redisx"
 	"github.com/go-redis/redis/v8"
 )
 

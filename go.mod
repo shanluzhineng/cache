@@ -1,13 +1,13 @@
-module github.com/abmpio/cache
+module github.com/shanluzhineng/cache
 
-go 1.19
+go 1.20
 
 require (
-	github.com/abmpio/abmp v0.0.0-20230819060034-aa8d5ad8e394
-	github.com/abmpio/app v0.0.0-20231107113850-3cb7968b906e
-	github.com/abmpio/configurationx v0.0.0-20230713072959-39c660b4f462
-	github.com/abmpio/redisx v0.0.0-20230830042649-668bfd97c496
 	github.com/go-redis/redis/v8 v8.11.5
+	github.com/shanluzhineng/abmp v0.0.1
+	github.com/shanluzhineng/app v0.0.2
+	github.com/shanluzhineng/configurationx v0.0.1
+	github.com/shanluzhineng/redisx v0.0.1
 	go.uber.org/zap v1.25.0
 )
 
